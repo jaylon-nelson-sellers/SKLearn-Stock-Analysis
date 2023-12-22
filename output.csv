@@ -1,0 +1,11 @@
+Features,Output Size,Num of Stocks,Model,Output Accuracy,Individual Accuracy,Mean Square Error
+6,10,10,DummyClassifier(strategy='stratified'),0.0019,0.5043,0.4957
+6,10,10,DummyClassifier(strategy='most_frequent'),0.2077,0.5445,0.4555
+6,10,10,DummyClassifier(strategy='uniform'),0.0012,0.4992,0.5008
+6,10,10,LinearRegression(),0.1596,0.5484,0.2471
+6,10,10,Ridge(alpha=0.5),0.1625,0.5483,0.2471
+6,10,10,Lasso(alpha=0.1),0.2077,0.5445,0.2477
+6,10,10,MultiTaskLasso(alpha=0.1),0.2077,0.5445,0.2477
+6,10,10,"MultiTaskElasticNetCV(cv=5, max_iter=1000000, random_state=0)",0.1619,0.5484,0.2471
+6,10,10,Lars(n_nonzero_coefs=1),0.1581,0.5482,0.2472
+6,10,10,LassoLars(alpha=0.1),0.2077,0.5445,0.2477
