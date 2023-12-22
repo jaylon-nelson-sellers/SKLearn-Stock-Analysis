@@ -1,0 +1,11 @@
+Stocks,Features,Outputs,Model,Output Accuracy,Individual Accuracy,Mean Squared Error,Note
+10,6,10,Dummy,0.0014,0.5027,0.4973,stratified
+10,6,10,Dummy,0.2077,0.5445,0.4555,most frequent
+10,6,10,Dummy,0.2077,0.5445,0.4555,prior
+10,6,10,Dummy,0.0011,0.5003,0.4997,uniform
+10,6,10,Linear Regression,0.1596,0.5484,0.2471,
+10,6,10,Ridge,0.1625,0.5483,0.2471,
+10,6,10,Lasso,0.2077,0.5445,0.2477,
+10,6,10,Elastic-Net,0.1619,0.5484,0.2471,
+10,6,10,Lars,0.1581,0.5482,0.2472,
+10,6,10,Lars Lasso,0.2077,0.5445,0.2477,

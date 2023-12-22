@@ -1,0 +1,57 @@
+Starting Test Series 1
+Input Size: 6
+Stocks: 10
+Data Already Exists: Now Loading
+Data Loaded: Running Tests 
+
+Dummy Tests
+Stratified
+Output Accuracy: 0.001
+Individual Accuracy: 0.5036
+Mean Squared Error: 0.4964
+
+most frequent
+Output Accuracy: 0.2077
+Individual Accuracy: 0.5445
+Mean Squared Error: 0.4555
+
+uniform
+Output Accuracy: 0.0005
+Individual Accuracy: 0.4971
+Mean Squared Error: 0.5029
+
+Linear Tests
+Linear Regression
+Output Accuracy: 0.1596
+Individual Accuracy: 0.5484
+Mean Squared Error: 0.2471
+
+Ridge
+Output Accuracy: 0.1625
+Individual Accuracy: 0.5483
+Mean Squared Error: 0.2471
+
+Lasso
+Output Accuracy: 0.2077
+Individual Accuracy: 0.5445
+Mean Squared Error: 0.2477
+
+Multi-Task Lasso
+Output Accuracy: 0.2077
+Individual Accuracy: 0.5445
+Mean Squared Error: 0.2477
+
+Elastic-Net
+Output Accuracy: 0.1619
+Individual Accuracy: 0.5484
+Mean Squared Error: 0.2471
+
+Lars
+Output Accuracy: 0.1581
+Individual Accuracy: 0.5482
+Mean Squared Error: 0.2472
+
+Lars Lasso
+Output Accuracy: 0.2077
+Individual Accuracy: 0.5445
+Mean Squared Error: 0.2477
