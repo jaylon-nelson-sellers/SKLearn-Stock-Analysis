@@ -1,0 +1,11 @@
+Num of Stocks,Dataset Size,Features,Output Size,Model,Output Accuracy,Individual Accuracy,Mean Square Error,
+1,90,18,10,DummyClassifier,0.0005,0.5015,0.4985,DummyClassifier(strategy='stratified')
+1,90,18,10,DummyClassifier,0.0466,0.5158,0.4842,DummyClassifier(strategy='most_frequent')
+1,90,18,10,DummyClassifier,0.0028,0.5003,0.4997,DummyClassifier(strategy='uniform')
+1,90,18,10,str,0.131,0.5583,0.2446,LinearRegression()
+1,90,18,10,str,0.1421,0.5532,0.2451,Ridge(alpha=0.5)
+1,90,18,10,str,0.0466,0.5158,0.2503,Lasso(alpha=0.1)
+1,90,18,10,str,0.0466,0.5158,0.2503,MultiTaskLasso(alpha=0.1)
+1,90,18,10,str,0.1287,0.5185,0.2493,Lars(n_nonzero_coefs=1)
+1,90,18,10,str,0.0466,0.5158,0.2503,LassoLars(alpha=0.1)
+1,90,18,10,str,0.1485,0.6967,0.3033,DecisionTreeClassifier(random_state=0)

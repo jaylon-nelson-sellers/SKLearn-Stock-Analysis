@@ -1,7 +1,7 @@
 Features,Output Size,Num of Stocks,Model,Output Accuracy,Individual Accuracy,Mean Square Error
-6,10,10,DummyClassifier(strategy='stratified'),0.0019,0.5043,0.4957
+6,10,10,DummyClassifier(strategy='stratified'),0.001,0.5043,0.4957
 6,10,10,DummyClassifier(strategy='most_frequent'),0.2077,0.5445,0.4555
-6,10,10,DummyClassifier(strategy='uniform'),0.0012,0.4992,0.5008
+6,10,10,DummyClassifier(strategy='uniform'),0.0015,0.5014,0.4986
 6,10,10,LinearRegression(),0.1596,0.5484,0.2471
 6,10,10,Ridge(alpha=0.5),0.1625,0.5483,0.2471
 6,10,10,Lasso(alpha=0.1),0.2077,0.5445,0.2477
@@ -9,3 +9,9 @@ Features,Output Size,Num of Stocks,Model,Output Accuracy,Individual Accuracy,Mea
 6,10,10,"MultiTaskElasticNetCV(cv=5, max_iter=1000000, random_state=0)",0.1619,0.5484,0.2471
 6,10,10,Lars(n_nonzero_coefs=1),0.1581,0.5482,0.2472
 6,10,10,LassoLars(alpha=0.1),0.2077,0.5445,0.2477
+6,10,10,DecisionTreeClassifier(random_state=0),0.1649,0.7175,0.2825
+6,10,10,ExtraTreesClassifier(),0.1339,0.6736,0.3264
+6,10,10,KNeighborsClassifier(),0.1351,0.6512,0.3488
+6,10,10,"MLPClassifier(max_iter=10000, random_state=1)",0.1526,0.5484,0.4516
+6,10,10,RadiusNeighborsClassifier(),0.2077,0.5445,0.4555
+6,10,10,"RandomForestClassifier(max_depth=2, random_state=0)",0.1418,0.5472,0.4528
